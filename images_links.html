@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset=UTF-8">
+		<meta name=viewport" content="width=device-width, intial-scale=1.0">
+		<title>IMAGE LINKS</title>
+		<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header, nav, section {
+	padding: 20px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+}
+section {
+	margin-top: 10px;
+}
+section img {
+	max-width: 80%;
+	height: 50%;
+	display: block;
+	margin: auto;
+}
+.gallery {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 10px;
+}
+.gallery img {
+	max-width: 80%;
+	height: 50%;
+}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to my Image Links Page!</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#menu">Menu</a></li>
+			</ul>
+		</nav>
+		<section id="Home">
+			<h2>Home</h2>
+			<p>Welcome to my website! Here's an image related to technology:</p>
+			<a href="https://www.vectorstock.com/royalty-free-vector/lines-background-big-data-technology-vector-18095044" target="_blank"><img src="technology.jpg" alt="Technology Image"></a>
+		</section>
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<div class="gallery">
+				<a href="https://www.istockphoto.com/photo/winding-road-gm1173544006-325999324?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fnature-images&utm_medium=affiliate&utm_source=unsplash&utm_term=nature+images%3A%3A%3A" target="_blank"<img src=nature.jpg" alt="Nature Image"></a>
+			</div>
+		</section>
+		<section id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=1024x1024&w=is&k=20&c=VaRsD5pHXDCMcwcAsOGaaBadptx0nHaJUuVKpyWaq3A=" target="_blank">Delicious Meal</a></li>
+			</ul>
+		</section>
+	</body>
+</html>
